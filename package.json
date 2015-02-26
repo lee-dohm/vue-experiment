@@ -1,0 +1,17 @@
+{
+  "name": "vue-experiment",
+  "main": "./lib/vue-experiment",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "vue-experiment:toggle"
+  },
+  "repository": "https://github.com/lee-dohm/vue-experiment",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "vue": "^0.11.5"
+  }
+}
