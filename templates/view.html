@@ -1,6 +1,6 @@
 <h2>Property Binding</h2>
 <div>
   {{ buttonMessage }}
-  {{ clicks }}
+  {{ clicks == 0 ? 'never' : clicks }}
   <button class="btn" v-on="click: clicks++">Click Me</button>
 </div>
