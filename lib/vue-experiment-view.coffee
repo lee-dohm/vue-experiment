@@ -3,7 +3,7 @@ path = require 'path'
 
 module.exports =
 class VueExperimentView
-  constructor: (serializeState) ->
+  constructor: ->
     @element = document.createElement('div')
     @element.classList.add('vue-experiment')
     @element.innerHTML = fs.readFileSync(path.join(__dirname, '../templates/view.html'))

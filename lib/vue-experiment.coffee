@@ -13,7 +13,7 @@ module.exports = VueExperiment =
     @model = new VueExperimentModel
     @view = new VueExperimentView
     @viewModel = new VueExperimentViewModel(@view.getElement(), @model)
-    @modalPanel = atom.workspace.addModalPanel(item: @viewModel.$el, visible: false)
+    @modalPanel = atom.workspace.addModalPanel(item: @viewModel.view, visible: false)
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
